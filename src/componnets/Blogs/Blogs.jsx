@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 
-const Blog = () => {
+const Blogs = () => {
 
     const [blogs , setBlogs] = useState([]);
 
@@ -13,10 +13,13 @@ const Blog = () => {
     },[])
 
     return (
-        <div>
+        <div className="md:w-2/3 ">
+            <h1 className="text-2xl font-bold ">Blogs  : {blogs.length} </h1>
+
             
+
         </div>
     );
 };
 
-export default Blog;
+export default Blogs;
