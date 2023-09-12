@@ -1,0 +1,43 @@
+
+ [
+      {
+        "id": 1,
+        "cover": "https://i.ibb.co/TvJMZq9/1.jpg",
+        "title": "The Art of Painting",
+        "author": "Sarah Johnson",
+        "author_img": "https://i.ibb.co/XC9hfqf/boy1.png",
+        "posted_date": "2023-09-10",
+        "reading_time": 12,
+        "hashtags": ["art", "painting", "creativity"]
+      },
+      {
+        "id": 2,
+        "cover": "https://i.ibb.co/SyYtnjj/2.png",
+        "title": "The World of Photography",
+        "author": "David Smith",
+        "author_img": "https://i.ibb.co/xzV9Sp0/boy2.jpg",
+        "posted_date": "2023-09-09",
+        "reading_time": 18,
+        "hashtags": ["photography", "art", "visual"]
+      },
+      {
+        "id": 3,
+        "cover": "https://i.ibb.co/3cYW6Ps/4.jpg",
+        "title": "Healthy Living: A Lifestyle Guide",
+        "author": "Emily Brown",
+        "author_img": "https://i.ibb.co/wzd4J2k/girl1.jpg",
+        "posted_date": "2023-09-08",
+        "reading_time": 14,
+        "hashtags": ["health", "wellness", "lifestyle"]
+      },
+      {
+        "id": 4,
+        "cover": "https://i.ibb.co/42CgTv3/3.png",
+        "title": "The Science of Climate Change",
+        "author": "Michael Adams",
+        "author_img": "https://i.ibb.co/yXr1GWw/girl2.jpg",
+        "posted_date": "2023-09-07",
+        "reading_time": 20,
+        "hashtags": ["climate", "environment", "science"]
+      }
+  ]
