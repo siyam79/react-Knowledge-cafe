@@ -3,11 +3,9 @@ import PropTypes from 'prop-types';
 
 import { IoBookmarksOutline} from 'react-icons/io5';
 
-const Blog = ({ blog , handleAddToBookMark}) => {
-
+const Blog = ({ blog , handleAddToBookMark ,  handleMarkAsRead }) => {
 
     const { title, cover, author_img, author, posted_date, reading_time , hashtags} = blog
-
 
     return (
         <div className=' space-y-6 '>
@@ -32,15 +30,18 @@ const Blog = ({ blog , handleAddToBookMark}) => {
                     hashtags.map((hash , indx) => <span key={indx}> <a href="">#{hash}</a> </span> )
                 }
             </p>
-
-
+                <button
+                onClick={()=> handleMarkAsRead (reading_time)}
+                 className=' underline text-red-600 text-lg font-semibold  '>Mark As Read </button>
         </div>
     );
 };
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddToBookMark :PropTypes.func
+    handleAddToBookMark :PropTypes.func,
+    handleMarkAsRead : PropTypes.func
+   
    
   
 }
