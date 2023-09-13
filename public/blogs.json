@@ -39,5 +39,15 @@
         "posted_date": "2023-09-07",
         "reading_time": 20,
         "hashtags": ["climate", "environment", "science"]
+      },
+      {
+        "id": 5,
+        "cover": "https://i.ibb.co/tJjpwKM/portrait-woman-customer-service-worker.jpg",
+        "title": "The Science of Climate Change",
+        "author": "Michael Jhon",
+        "author_img": "https://i.ibb.co/yXr1GWw/girl2.jpg",
+        "posted_date": "2023-06-07",
+        "reading_time": 30,
+        "hashtags": ["climate", "environment", "science"]
       }
   ]
